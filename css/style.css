@@ -1,0 +1,73 @@
+.logo-primary {
+    color: #2196F3;
+}
+.logo-secondary {
+    color:#000000
+}
+.logo:hover,
+.logo:focus {
+color: #2196F3;
+}
+.nav-link{
+    color: #212121;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: #2196F3;
+}
+.ul-link{
+    color: #757575;
+}
+.ul-link:hover,
+.ul-link:focus {
+    color: #2196F3;
+}
+.page {
+    color: #212121;
+    background-color: #F5F5F5;
+}
+.button {
+    background-color: #2F303A;
+}
+.site-nav {
+    list-style: none;
+}
+.images {
+    list-style: none;
+}
+.team {
+    list-style: none;
+    background-color: #F5F4FA;
+}
+.project-work {
+    list-style: none;
+}
+.auth-nav {
+    list-style: none;
+}
+.section-title {
+    color: #212121;
+}
+.undertitle {
+    color: #757575;
+}
+.li-title {
+list-style: none;
+}
+.h1-button {
+    color: #FFFFFF;
+}
+.footer {
+    background-color: #2F303A;
+}
+.footer:hover,
+.footer:focus {
+    color: #2196F3;
+}
+.button-inside {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.link-info {
+    color: #FFFFFF;
+}
