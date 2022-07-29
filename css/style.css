@@ -8,19 +8,22 @@
 .logo:focus {
 color: #2196F3;
 }
-.nav-link{
+.link {
     color: #212121;
 }
-.nav-link:hover,
-.nav-link:focus {
+.link:hover,
+.link:focus {
     color: #2196F3;
 }
-.ul-link{
+.link-header {
     color: #757575;
 }
-.ul-link:hover,
-.ul-link:focus {
+.link-header:hover,
+.link-header:focus {
     color: #2196F3;
+}
+.header {
+background-color: #FFFFFF;
 }
 .page {
     color: #212121;
@@ -28,6 +31,34 @@ color: #2196F3;
 }
 .button {
     background-color: #2F303A;
+}
+.button:hover,
+.button:focus {
+    color: #2196F3;
+}
+.main-section {
+    color: #FFFFFF;
+}
+.main-section:hover,
+.main-section:focus {
+   color: #2196F3;
+}
+.section-button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.section-button:hover,
+.section-button:focus {
+    color: #FFFFFF;
+}
+.section-title {
+    color: #212121;
+}
+.undertitle {
+    color: #757575;
+}
+.title {
+    list-style: none;
 }
 .site-nav {
     list-style: none;
@@ -37,7 +68,9 @@ color: #2196F3;
 }
 .team {
     list-style: none;
-    background-color: #F5F4FA;
+}
+.team-section {
+    background-color: #F5F4FA
 }
 .project-work {
     list-style: none;
@@ -45,17 +78,14 @@ color: #2196F3;
 .auth-nav {
     list-style: none;
 }
-.section-title {
-    color: #212121;
-}
 .undertitle {
     color: #757575;
 }
 .li-title {
-list-style: none;
+    list-style: none;
 }
-.h1-button {
-    color: #FFFFFF;
+.project-text {
+    color: #757575;
 }
 .footer {
     background-color: #2F303A;
@@ -64,10 +94,13 @@ list-style: none;
 .footer:focus {
     color: #2196F3;
 }
-.button-inside {
-    color: #FFFFFF;
-    background-color: #2196F3;
-}
 .link-info {
     color: #FFFFFF;
+}
+.link-info:hover,
+.link-info:focus {
+color: #2196F3;
+}
+.project {
+    color: #212121;
 }
