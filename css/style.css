@@ -39,16 +39,12 @@ background-color: #FFFFFF;
 .main-section {
     color: #FFFFFF;
 }
-.main-section:hover,
-.main-section:focus {
-   color: #2196F3;
+.section-button:hover,
+.section-button:focus {
+    color: #FFFFFF;
 }
 .section-button {
     background-color: #2196F3;
-    color: #FFFFFF;
-}
-.section-button:hover,
-.section-button:focus {
     color: #FFFFFF;
 }
 .section-title {
@@ -103,4 +99,22 @@ color: #2196F3;
 }
 .project {
     color: #212121;
+}
+.li-button:hover,
+.li-button:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+.li-button {
+    color: #212121;
+    background-color: ##F5F4FA;
+}
+.buttons {
+    list-style: none;
+}
+.project-text {
+    background: #EEEEEE;
+}
+.project {
+    background-color: #EEEEEE;
 }
