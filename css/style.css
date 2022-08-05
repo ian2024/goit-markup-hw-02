@@ -14,6 +14,10 @@
 .logo:focus {
 color: var(--accent-color);
 }
+.logo {
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+}
 .link {
     color: var(--title-text-color);
 }
@@ -23,6 +27,7 @@ color: var(--accent-color);
 }
 .link-mail {
     color: var(--primary-text-color);
+
 }
 .link-mail:hover,
 .link-mail:focus {
@@ -34,9 +39,13 @@ background-color: var(--primary-white-color);
 .page {
     color: var(--title-text-color);
     background-color: #F5F5F5;
+
+    font-family: Roboto, sans-serif;
 }
 .button-primary {
     background-color: #2F303A;
+
+    letter-spacing: 0.06em;
 }
 .button-primary:hover,
 .button-primary:focus {
@@ -52,6 +61,11 @@ background-color: var(--primary-white-color);
 .module-button {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
+
+    letter-spacing: 0.06em;
+}
+.block {
+    letter-spacing: 0.03em;
 }
 .block-title {
     color: var(--title-text-color);
@@ -59,11 +73,16 @@ background-color: var(--primary-white-color);
 .undertitle {
     color: var(--primary-text-color);
 }
+.block-work {
+    letter-spacing: 0.03em;
+}
 .title {
     list-style: none;
 }
 .site-nav {
     list-style: none;
+
+    letter-spacing: 0.02em;
 }
 .site-nav .link.current {
 color: var(--accent-color);
@@ -75,13 +94,17 @@ color: var(--accent-color);
     list-style: none;
 }
 .team-block {
-    background-color: #F5F4FA
+    background-color: #F5F4FA;
+
+    letter-spacing: 0.03em;
 }
 .project-work {
     list-style: none;
 }
 .auth-nav {
     list-style: none;
+
+    letter-spacing: 0.02em;
 }
 .undertitle {
     color: var(--primary-text-color);
@@ -89,8 +112,17 @@ color: var(--accent-color);
 .info-title {
     list-style: none;
 }
+.project {
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+
+    letter-spacing: 0.06em;
+}
 .project-text {
+    background-color: var(--primary-white-color);
     color: var(--primary-text-color);
+
+    letter-spacing: 0.03em;
 }
 .bottom {
     background-color: #2F303A;
@@ -101,13 +133,12 @@ color: var(--accent-color);
 }
 .link-info {
     color: var(--primary-white-color);
+
+    letter-spacing: 0.03em;
 }
 .link-info:hover,
 .link-info:focus {
-color: var(--accent-color);
-}
-.project {
-    color: var(--title-text-color);
+    color: var(--accent-color);
 }
 .list-button:hover,
 .list-button:focus {
@@ -117,13 +148,17 @@ color: var(--accent-color);
 .list-button {
     color: var(--title-text-color);
     background-color: #F5F4FA;
+
+    letter-spacing: 0.03em;
 }
 .buttons {
     list-style: none;
 }
-.project-text {
-    background-color: var(--primary-white-color);
+.link-color {
+    color: rgba(255, 255, 255, 0.6);
 }
-.project {
-    background-color: var(--primary-white-color);
-}
+.link-color:hover,
+.link-color:focus {
+    color: var(--accent-color);
+    letter-spacing: 0.03em;
+}  
