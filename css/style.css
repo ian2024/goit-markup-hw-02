@@ -113,7 +113,7 @@ footer .logo-studio{
     text-align: center;
 }
 .team-block .name {
-    background-color: var(--title-text-color);
+    color: var(--title-text-color);
 
     font-weight: 500;
     font-size: 16px;
